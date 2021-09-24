@@ -12,23 +12,23 @@ public class Filme {
     public int getCodigo() {
         return codigo;
     }
-    //Atribuir valor pelo metódo set
+    //Atribuir valor pelo método set
     public void setCodigo(int codigo) {
         this.codigo = codigo;
     }
-    //Consultar nome pelo metódo get;
+    //Consultar nome pelo método get;
     public int getNome() {
         return nome;
     }
-    //Atribuir nome pelo metódo set
+    //Atribuir nome pelo método set
     public void setNome(String nome) {
         this.nome = nome;
     }
-     //Consultar valor pelo metódo get;
+     //Consultar valor pelo método get;
     public int getValor() {
         return valor;
     }
-      //Atribuir valor pelo metódo set
+      //Atribuir valor pelo método set
     public void setValor(double valor) {
         this.valor = valor;
     }
@@ -36,11 +36,11 @@ public class Filme {
     public boolean isDisponivel() {
 		return disponivel;
 	}
-     //Atribuir true ou false pelo metódo set;
+     //Atribuir true ou false pelo método set;
     public void setDisponivel(boolean disponivel) {
 		this.disponivel = disponivel;
 	}
-
+     //
     public void retirar() {
 		if(disponivel == true) {
 			disponivel = false;
